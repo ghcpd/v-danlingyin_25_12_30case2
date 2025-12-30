@@ -1,0 +1,88 @@
+import { Event } from '../types';
+
+export const events: Event[] = [
+  {
+    id: 'evt-1',
+    name: 'Times Square Ball Drop',
+    date: 'December 31, 2025',
+    time: '11:59 PM',
+    location: 'New York City, USA',
+    description: 'Join millions in watching the iconic crystal ball descend in Times Square.',
+    fullDescription: 'The Times Square Ball Drop is one of the world\'s most famous New Year\'s Eve celebrations. Since 1907, people have gathered in Times Square to watch the illuminated ball descend from a flagpole atop One Times Square to mark the start of the new year. The event features live performances, confetti, and the famous countdown. Over 1 billion people worldwide watch this iconic celebration.',
+    imageUrl: 'https://images.unsplash.com/photo-1546271876-af6caec5fae5?w=400',
+  },
+  {
+    id: 'evt-2',
+    name: 'Sydney Harbour Fireworks',
+    date: 'December 31, 2025',
+    time: '9:00 PM & 12:00 AM',
+    location: 'Sydney, Australia',
+    description: 'Witness the world-famous fireworks display over Sydney Harbour Bridge.',
+    fullDescription: 'Sydney\'s New Year\'s Eve fireworks are legendary, lighting up the Harbor Bridge and Opera House in spectacular fashion. The celebration includes two fireworks shows: a family-friendly display at 9 PM and the main midnight spectacular. Over 100,000 fireworks illuminate the sky, creating one of the first major New Year celebrations globally due to Australia\'s timezone.',
+    imageUrl: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=400',
+  },
+  {
+    id: 'evt-3',
+    name: 'Edinburgh Hogmanay',
+    date: 'December 30-31, 2025',
+    time: 'All Day',
+    location: 'Edinburgh, Scotland',
+    description: 'Experience Scotland\'s legendary three-day New Year celebration.',
+    fullDescription: 'Edinburgh\'s Hogmanay is a three-day festival celebrating the Scottish New Year tradition. Events include a torchlight procession through the city, a massive street party on Princes Street, live music from international artists, and the tradition of "first-footing" - being the first person to enter a home after midnight brings good luck for the year.',
+    imageUrl: 'https://images.unsplash.com/photo-1506377585622-bedcbb027afc?w=400',
+  },
+  {
+    id: 'evt-4',
+    name: 'Tokyo Temple Bell Ringing',
+    date: 'December 31, 2025',
+    time: '11:00 PM',
+    location: 'Tokyo, Japan',
+    description: 'Experience Joya no Kane, the Buddhist tradition of ringing temple bells 108 times.',
+    fullDescription: 'At Buddhist temples across Japan, bells are rung 108 times at midnight, a practice called Joya no Kane. The 108 rings represent the 108 earthly desires that cause human suffering in Buddhist belief. Visitors gather at temples like Sensoji in Asakusa to participate in this meditative tradition, followed by the first shrine visit (Hatsumode) of the new year.',
+    imageUrl: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=400',
+  },
+  {
+    id: 'evt-5',
+    name: 'Rio de Janeiro Beach Party',
+    date: 'December 31, 2025',
+    time: '8:00 PM',
+    location: 'Copacabana Beach, Brazil',
+    description: 'Join millions on Copacabana Beach for Reveillon, Brazil\'s biggest celebration.',
+    fullDescription: 'Brazil\'s Reveillon celebration on Copacabana Beach is one of the world\'s largest New Year\'s parties. Over 2 million people dressed in white gather on the beach for live music, fireworks, and the tradition of jumping seven waves while making wishes. The white clothing symbolizes peace, while participants make offerings to Yemanjá, the goddess of the sea.',
+    imageUrl: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=400',
+  },
+  {
+    id: 'evt-6',
+    name: 'Dubai Burj Khalifa Light Show',
+    date: 'December 31, 2025',
+    time: '11:30 PM',
+    location: 'Dubai, UAE',
+    description: 'Watch the world\'s tallest building transform into a massive LED display.',
+    fullDescription: 'Dubai\'s New Year celebration centers around the Burj Khalifa, which becomes a giant screen for a spectacular LED light show synchronized with fireworks. The display tells a story through lights, lasers, and pyrotechnics, setting multiple world records. The celebration also includes the Dubai Fountain\'s choreographed water show.',
+    imageUrl: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400',
+  },
+  {
+    id: 'evt-7',
+    name: 'London New Year\'s Eve Fireworks',
+    date: 'December 31, 2025',
+    time: '12:00 AM',
+    location: 'London, UK',
+    description: 'Experience Big Ben\'s chimes and fireworks over the London Eye.',
+    fullDescription: 'London\'s New Year celebration features fireworks launched from the London Eye and barges on the Thames, synchronized to Big Ben\'s famous midnight chimes. The 12-minute display is broadcast worldwide and includes special effects visible across central London. The event also features a day-time parade on January 1st with marching bands and floats.',
+    imageUrl: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400',
+  },
+  {
+    id: 'evt-8',
+    name: 'Berlin Brandenburg Gate Party',
+    date: 'December 31, 2025',
+    time: '7:00 PM',
+    location: 'Berlin, Germany',
+    description: 'Join Europe\'s largest open-air New Year party at the Brandenburg Gate.',
+    fullDescription: 'Berlin\'s New Year celebration at the Brandenburg Gate is Europe\'s largest open-air party, attracting over a million visitors. The "Party Mile" stretches from the Brandenburg Gate to the Victory Column, featuring multiple stages with live music, food stalls, and a spectacular midnight fireworks display over this historic landmark.',
+    imageUrl: 'https://images.unsplash.com/photo-1560930950-5cc20e80e392?w=400',
+  },
+];
+
+export const getEventById = (id: string): Event | undefined => {
+  return events.find((e) => e.id === id);
+};
