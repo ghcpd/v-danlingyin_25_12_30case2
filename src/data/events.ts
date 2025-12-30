@@ -1,0 +1,68 @@
+import { Event } from '../types';
+
+export const events: Event[] = [
+  {
+    id: '1',
+    name: 'New Year\'s Eve Countdown at Times Square',
+    date: '2025-12-31',
+    location: 'New York City, USA',
+    description: 'Join millions of people for the iconic ball drop celebration in Times Square. The event features live music performances, special celebrity appearances, and the famous countdown to midnight with the descent of the crystal ball.',
+    imageUrl: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=500',
+  },
+  {
+    id: '2',
+    name: 'Edinburgh Hogmanay Street Party',
+    date: '2025-12-31',
+    location: 'Edinburgh, Scotland',
+    description: 'Scotland\'s biggest New Year celebration featuring live music, traditional ceilidh dancing, and spectacular fireworks over Edinburgh Castle. Experience authentic Scottish culture with bagpipers and traditional first-footing.',
+    imageUrl: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=500',
+  },
+  {
+    id: '3',
+    name: 'Sydney Harbour New Year\'s Eve',
+    date: '2025-12-31',
+    location: 'Sydney, Australia',
+    description: 'Witness one of the world\'s most spectacular fireworks displays over the iconic Sydney Harbour Bridge and Opera House. The celebration includes a family-friendly show at 9 PM and the main midnight fireworks.',
+    imageUrl: 'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=500',
+  },
+  {
+    id: '4',
+    name: 'Tokyo New Year Shrine Visit',
+    date: '2026-01-01',
+    location: 'Tokyo, Japan',
+    description: 'Experience the Japanese tradition of Hatsumode with visits to famous shrines like Meiji Jingu. Participate in traditional rituals, purchase lucky charms, and enjoy special New Year foods and festivities.',
+    imageUrl: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500',
+  },
+  {
+    id: '5',
+    name: 'Rio de Janeiro Copacabana Beach Party',
+    date: '2025-12-31',
+    location: 'Rio de Janeiro, Brazil',
+    description: 'Celebrate Réveillon on Copacabana Beach with over 2 million people. Dress in white for good luck, enjoy live music concerts, and watch spectacular fireworks while jumping seven waves.',
+    imageUrl: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500',
+  },
+  {
+    id: '6',
+    name: 'Dubai Burj Khalifa Light Show',
+    date: '2025-12-31',
+    location: 'Dubai, UAE',
+    description: 'Experience the world\'s tallest building transformed into a canvas of light and fireworks. The celebration includes laser shows, LED displays, and a spectacular fireworks display that lights up the Dubai skyline.',
+    imageUrl: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500',
+  },
+  {
+    id: '7',
+    name: 'Berlin Brandenburg Gate Celebration',
+    date: '2025-12-31',
+    location: 'Berlin, Germany',
+    description: 'Join one of Europe\'s largest open-air New Year parties at the Brandenburg Gate. Enjoy live music on multiple stages, food stalls, and spectacular fireworks at midnight.',
+    imageUrl: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=500',
+  },
+  {
+    id: '8',
+    name: 'London Eye New Year Fireworks',
+    date: '2025-12-31',
+    location: 'London, United Kingdom',
+    description: 'Watch the famous London Eye become the centerpiece of a stunning fireworks display. The show includes pyrotechnics launched from the river Thames and surrounding buildings.',
+    imageUrl: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=500',
+  },
+];
