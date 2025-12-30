@@ -1,0 +1,1 @@
+export { TraditionsPage } from './TraditionsPage';

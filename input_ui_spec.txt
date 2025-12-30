@@ -1,0 +1,74 @@
+input_ui_spec.txt — New Year Cultural Website Specification
+1. Project Overview
+This website celebrates New Year and cross-year cultural traditions, showcasing global New Year customs, countdown events, cultural stories, and festive activities.
+The site is informational and interactive, designed for general users.
+--------------------------------------------------------------------------------
+2. Pages & Routes
+2.1 Home Page (/)
+Must include:
+- Hero section with New Year theme
+- Countdown timer to next New Year
+- Navigation to other pages
+- Featured New Year traditions (3–5 cards)
+--------------------------------------------------------------------------------
+2.2 Traditions Page (/traditions)
+Must include:
+- List of New Year traditions from different cultures
+- Each tradition card includes:
+- Title
+- Country/Region
+- Short description
+- Filter by region (e.g. Asia, Europe, Americas)
+- Responsive grid layout
+--------------------------------------------------------------------------------
+2.3 Events Page (/events)
+Must include:
+- List of New Year events
+- Event fields:
+- Name
+- Date
+- Location
+- Short description
+- Ability to view event details in a modal or detail section
+--------------------------------------------------------------------------------
+2.4 Stories Page (/stories)
+Must include:
+- Short New Year cultural stories or articles
+- Title, excerpt, and “Read more” interaction
+- Content can be mock/static
+--------------------------------------------------------------------------------
+2.5 About Page (/about)
+Must include:
+- Purpose of the website
+- Explanation of New Year cultural significance
+- Static content page
+--------------------------------------------------------------------------------
+3. Global UI Requirements
+- Top navigation bar
+- Footer with copyright
+- Responsive design (mobile / tablet / desktop)
+- Consistent New Year visual theme (colors, spacing, typography)
+--------------------------------------------------------------------------------
+4. Interactions
+- Navigation between pages
+- Countdown timer updates in real time
+- Filter interaction on traditions page
+- Modal or expandable sections for events/stories
+--------------------------------------------------------------------------------
+5. Data
+- No backend API is provided
+- Use mock data stored in 
+src/data/
+- Data must be fully typed
+--------------------------------------------------------------------------------
+6. Accessibility
+- Semantic HTML elements
+- Keyboard navigation supported
+- Sufficient color contrast
+- ARIA labels where appropriate
+--------------------------------------------------------------------------------
+7. Non-Goals (Must NOT implement)
+- User authentication
+- Payment or ticket booking
+- Real-time backend APIs
+- Internationalization (i18n)
